@@ -26,6 +26,23 @@
   font-family: 'Calligraffitti', cursive;
 }
 
+@media only screen and (min-width: 768px) {
+  .float-parent{
+    background-size: cover;
+    min-height: 40vh;
+    position:relative;
+  }
+  .floating-card {
+    position: absolute;
+    bottom: -3rem;
+    right: 5rem;
+    left: 2rem;
+    z-index: 1;
+  }
+
+
+}
+
 .events {
   font-family: 'Calligraffitti', cursive;
 }
@@ -38,6 +55,18 @@
 
 .line {
   vertical-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .order-sm-1 {
+    order: 1;
+  }
+  .order-sm-2 {
+    order: 2;
+  }
+  .order-sm-3 {
+    order: 3
+  }
 }
 
 .food {
